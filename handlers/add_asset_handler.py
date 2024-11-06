@@ -1,7 +1,7 @@
 from docx import Document
 import os
 
-output_directory = 'D:\\Projects\\a.kalinin\\Bot_TG_SKLAD\\docx'
+output_directory = 'путь для сохранения файлов "Акт"'
 os.makedirs(output_directory, exist_ok=True)
 
 def create_asset_issue_act(data, file_name):
